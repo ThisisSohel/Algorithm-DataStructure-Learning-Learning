@@ -57,12 +57,10 @@ void isSorted()
             cout << "This list is not sorted" << endl;
             return;
         }
-        else
-        {
-            cout << "This List is sorted list" << endl;
-            return;
-        }
+        curr = curr->next;
+        prev = prev->next;
     }
+    cout << "This list is sorted" << endl;
 }
 
 int main()
